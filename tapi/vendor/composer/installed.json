@@ -1,0 +1,172 @@
+[
+    {
+        "name": "bcosca/fatfree",
+        "version": "3.5.1",
+        "version_normalized": "3.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcosca/fatfree.git",
+            "reference": "943df693fa3b183f7fec6fb09f9c9f89413228e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bcosca/fatfree/zipball/943df693fa3b183f7fec6fb09f9c9f89413228e6",
+            "reference": "943df693fa3b183f7fec6fb09f9c9f89413228e6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.6"
+        },
+        "time": "2015-12-31 17:20:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/base.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+        "homepage": "http://fatfreeframework.com/"
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v5.2.16",
+        "version_normalized": "5.2.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a",
+            "reference": "1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.7.*"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2016-06-06 09:09:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "ikkez/f3-schema-builder",
+        "version": "v2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ikkez/f3-schema-builder.git",
+            "reference": "a06f2010a17e686b325d94e340420e882b485314"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ikkez/f3-schema-builder/zipball/a06f2010a17e686b325d94e340420e882b485314",
+            "reference": "a06f2010a17e686b325d94e340420e882b485314",
+            "shasum": ""
+        },
+        "time": "2016-01-29 11:24:45",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "SQL Schema Builder Plugin for PHP Fat-Free Framework",
+        "homepage": "https://github.com/ikkez/f3-schema-builder",
+        "keywords": [
+            "F3",
+            "fatfree",
+            "sql"
+        ]
+    },
+    {
+        "name": "ikkez/f3-cortex",
+        "version": "v1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ikkez/f3-cortex.git",
+            "reference": "f04b3ad00cd1df5c8f209df9e8d0e2931f9df14a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/f04b3ad00cd1df5c8f209df9e8d0e2931f9df14a",
+            "reference": "f04b3ad00cd1df5c8f209df9e8d0e2931f9df14a",
+            "shasum": ""
+        },
+        "require": {
+            "ikkez/f3-schema-builder": "2.*"
+        },
+        "time": "2016-01-29 10:41:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework",
+        "homepage": "https://github.com/ikkez/f3-cortex",
+        "keywords": [
+            "F3",
+            "fatfree",
+            "mongo",
+            "orm",
+            "sql"
+        ]
+    }
+]

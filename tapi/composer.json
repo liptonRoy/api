@@ -1,0 +1,7 @@
+{
+    "require": {
+        "bcosca/fatfree": "^3.5",
+        "phpmailer/phpmailer": "^5.2",
+        "ikkez/f3-cortex": "^1.4"
+    }
+}
